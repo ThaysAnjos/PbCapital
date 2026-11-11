@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>PB Capital</title>
+<style>
+:root{--bg:#F2EBDA;--bg2:#E8DEC6;--ink:#0F1B4D;--mute:#6B6A70;--card:#FAF6EA;--line:#D6C9A8;--btn:#0F1B4D;--btnt:#F7F4EB;--red:#C8102E;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{background:var(--bg);color:var(--ink);font-family:Georgia,"Times New Roman",serif;line-height:1.6}
+.sans{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1040px;margin:0 auto;padding:0 22px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:62px}
+.logo{line-height:.95;font-size:22px;font-weight:600}
+.logo small{display:block;font-size:.72em;color:var(--mute);font-weight:600}
+.logo b{display:inline-block;border-bottom:3px solid var(--red);padding-bottom:0;line-height:.9}
+nav{display:flex;gap:22px;font-size:14px}
+nav a{color:var(--mute)}nav a:hover{color:var(--ink)}
+@media(max-width:640px){nav a:not(.cta){display:none}}
+.btn{display:inline-block;background:var(--btn);color:var(--btnt);padding:13px 26px;border-radius:999px;font-size:15px;border:0;cursor:pointer}
+.btn.o{background:transparent;color:var(--ink);border:1px solid var(--ink)}.btn:hover{background:var(--red);color:#fff;border-color:var(--red)}.stat strong{color:var(--ink)}.stat{border-top:3px solid var(--red);padding-top:16px}
+.hero{padding:84px 0 72px}
+.eyebrow{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--red);font-weight:600}
+h1{font-size:clamp(36px,7vw,64px);line-height:1.08;margin:14px 0 20px;font-weight:600;max-width:15em}
+.lead{font-size:19px;color:var(--mute);max-width:36em}
+.row{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+section{padding:68px 0}
+.alt{background:var(--bg2)}
+h2{font-size:clamp(28px,4.5vw,40px);margin:10px 0 14px;font-weight:600}
+.grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));margin-top:34px}
+.card{background:var(--card);border:1px solid var(--line);border-top:3px solid var(--red);border-radius:18px;padding:26px}
+.card h3{font-size:20px;margin:12px 0 8px}
+.card p{color:var(--mute);font-size:15px}
+.ic{width:38px;height:38px;border-radius:50%;background:var(--red);color:var(--bg);display:grid;place-items:center;font-size:15px}
+.stat{text-align:center}.stat strong{display:block;font-size:44px;font-weight:600}.stat span{color:var(--mute);font-size:14px}
+.two{display:grid;gap:36px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));align-items:center}
+.box{aspect-ratio:4/3;border-radius:22px;background:linear-gradient(135deg,var(--ink),#2A3875);display:grid;place-items:center;color:#F7F4EB;font-size:42px}
+input,textarea{width:100%;padding:14px 16px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--ink);font:inherit;font-size:15px;margin-bottom:12px}
+footer{border-top:1px solid var(--line);padding:28px 0;color:var(--mute);font-size:13px}
+.f{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="logo" href="#topo"><small>PB</small><b>C</b>apital</a>
+<nav class="sans"><a href="#sobre">Sobre</a><a href="#servicos">Serviços</a><a href="#numeros">Resultados</a><a class="cta btn" href="#contato" style="padding:9px 20px;color:var(--btnt)">Contato</a></nav>
+</div></header>
+
+<main id="topo">
+<div class="wrap hero">
+<p class="eyebrow sans">Gestão de patrimônio e investimentos</p>
+<h1>Capital com propósito, crescimento com solidez.</h1>
+<p class="lead">Somos uma empresa dedicada a transformar objetivos financeiros em resultados consistentes, com transparência, rigor e visão de longo prazo.</p>
+<div class="row sans"><a class="btn" href="#contato">Fale conosco</a><a class="btn o" href="#servicos">Conheça nossas soluções</a></div>
+</div>
+
+<section id="sobre" class="alt"><div class="wrap two">
+<div><p class="eyebrow sans">Sobre nós</p><h2>Uma abordagem pensada para o seu futuro</h2>
+<p class="lead" style="font-size:17px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+<p class="lead" style="font-size:17px;margin-top:14px">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p></div>
+<div class="box" aria-hidden="true">PB</div>
+</div></section>
+
+<section id="servicos"><div class="wrap">
+<p class="eyebrow sans">Serviços</p><h2>Soluções para cada etapa</h2>
+<div class="grid">
+<div class="card"><div class="ic sans">01</div><h3>Gestão de patrimônio</h3><p>Texto de exemplo descrevendo o serviço de forma clara e objetiva para o cliente.</p></div>
+<div class="card"><div class="ic sans">02</div><h3>Consultoria de investimentos</h3><p>Texto de exemplo descrevendo o serviço de forma clara e objetiva para o cliente.</p></div>
+<div class="card"><div class="ic sans">03</div><h3>Planejamento financeiro</h3><p>Texto de exemplo descrevendo o serviço de forma clara e objetiva para o cliente.</p></div>
+<div class="card"><div class="ic sans">04</div><h3>Estruturação de negócios</h3><p>Texto de exemplo descrevendo o serviço de forma clara e objetiva para o cliente.</p></div>
+</div></div></section>
+
+<section id="numeros" class="alt"><div class="wrap">
+<div class="grid" style="margin-top:0">
+<div class="stat"><strong>+15</strong><span class="sans">anos de experiência</span></div>
+<div class="stat"><strong>+500</strong><span class="sans">clientes atendidos</span></div>
+<div class="stat"><strong>R$ 1 bi</strong><span class="sans">sob gestão</span></div>
+<div class="stat"><strong>98%</strong><span class="sans">de satisfação</span></div>
+</div></div></section>
+
+<section id="contato"><div class="wrap two">
+<div><p class="eyebrow sans">Contato</p><h2>Vamos conversar?</h2>
+<p class="lead" style="font-size:17px">Conte-nos sobre seus objetivos e nossa equipe retornará em breve.</p>
+<p class="sans" style="margin-top:18px;color:var(--mute);font-size:15px">contato@pbcapital.com.br<br>(00) 0000-0000</p></div>
+<div class="sans"><input placeholder="Nome"><input placeholder="E-mail"><textarea rows="4" placeholder="Mensagem"></textarea><button class="btn" type="button">Enviar mensagem</button></div>
+</div></section>
+</main>
+
+<footer class="sans"><div class="wrap f"><span>© 2026 PB Capital. Todos os direitos reservados.</span><span>Modelo com textos ilustrativos</span></div></footer>
+</body>
+</html>
